@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSamples.ConsoleCoreApp", "CSharpSamples.ConsoleCoreApp\CSharpSamples.ConsoleCoreApp.csproj", "{E7CF2BED-4ACC-48DA-AEA7-E3530C256032}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpSamples.ConsoleCoreApp", "CSharpSamples.ConsoleCoreApp\CSharpSamples.ConsoleCoreApp.csproj", "{E7CF2BED-4ACC-48DA-AEA7-E3530C256032}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ntierSample", "ntierSample", "{E062A9AE-447C-4675-9D29-1D8F0413732F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilgeAdam.Business", "BilgeAdam.Business\BilgeAdam.Business.csproj", "{0F70CB57-2D6B-49F7-8AB8-15F70344C796}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "signalrSample", "signalrSample", "{71CE1D54-FCDE-4202-8F51-40F17CAFEE4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRApp", "SignalRApp\SignalRApp.csproj", "{FAD681F4-0D8D-4705-9334-BDCDFD98572B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +23,21 @@ Global
 		{E7CF2BED-4ACC-48DA-AEA7-E3530C256032}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7CF2BED-4ACC-48DA-AEA7-E3530C256032}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7CF2BED-4ACC-48DA-AEA7-E3530C256032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F70CB57-2D6B-49F7-8AB8-15F70344C796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F70CB57-2D6B-49F7-8AB8-15F70344C796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F70CB57-2D6B-49F7-8AB8-15F70344C796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F70CB57-2D6B-49F7-8AB8-15F70344C796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD681F4-0D8D-4705-9334-BDCDFD98572B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD681F4-0D8D-4705-9334-BDCDFD98572B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD681F4-0D8D-4705-9334-BDCDFD98572B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD681F4-0D8D-4705-9334-BDCDFD98572B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F70CB57-2D6B-49F7-8AB8-15F70344C796} = {E062A9AE-447C-4675-9D29-1D8F0413732F}
+		{FAD681F4-0D8D-4705-9334-BDCDFD98572B} = {71CE1D54-FCDE-4202-8F51-40F17CAFEE4C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {206C9824-9A5C-4E00-9EBA-9C6316739F53}
